@@ -14,7 +14,8 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-	res.send('Hello cloud environment from Node.js!\n');
+	let name = 'cloud environment';
+	res.send(`Hello ${name} from Node.js!\n`);
 });
 
 app.listen(PORT, HOST);
