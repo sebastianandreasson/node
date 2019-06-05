@@ -14,7 +14,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-	let name = 'cloud environment';
+	let name = 'nik';
 	res.send(`Hello ${name} from Node.js!\n`);
 });
 
