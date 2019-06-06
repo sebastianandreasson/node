@@ -15,7 +15,7 @@ Some things to try:
   - Reload VS Code
     > Note: VS Code automatically reconnects to your cloud environment
 
-2. **Use node:** 
+2. **Use Node:** 
   - Restore npm packages: `npm install`
 
 3. **Edit code:**
@@ -27,7 +27,7 @@ Some things to try:
   - From the terminal run `node --version`
     > Note: node is not installed on the local machine, yet you're able to use it! 
   - Type other Linux commands (`uname`, `ls`, etc.) to interact with the underlying environment
-    > Note: The local machine is Windows, yet you're able to issue Linux commands! 
+    > Note: Regardless of the local operating system, you're able to issue Linux commands! 
 
 5. **Build, Run, and Debug:**
    - Open `server.js`
@@ -35,7 +35,7 @@ Some things to try:
    - Add a breakpoint (e.g. on line 21)
    - Press F5 to launch the app
    - Once the breakpoint is hit, try hovering over variables, examining locals, and more.
-   - Continue, then open a local browser and go to `http://localhost:3000` and note you can't connect to the server
+   - Continue, then open a local browser and go to `http://localhost:3000`.
 
 6. **Forward port:**
    - Stop debugging and remove the breakpoint.
@@ -46,7 +46,4 @@ Some things to try:
      - Enter port 5000
      - Name it anything you'd like
      - View the forwarded ports in the Environment Details panel
-   - Open http://localhost:5000/ and show the booth attendant the running site
-
-7. **Finish**
-  - Complete steps 5-7 on the Challenge Worksheet
+   - Open the local browser and go to http://localhost:5000/ to see the app running on a different port.
