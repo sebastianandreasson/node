@@ -14,7 +14,6 @@ Some things to try:
   - From the terminal run `node --version`
     > Note: node is not installed on the local machine, yet you're able to use it! 
   - Type other Linux commands (`uname`, `ls`, etc.) to interact with the underlying environment
-    > Note: Regardless of the local operating system, you're able to issue Linux commands! 
 
 2. **Use Node:** 
   - Restore npm packages: `npm install`
